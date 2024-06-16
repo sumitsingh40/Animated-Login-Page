@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://th.bing.com/th/id/R.7a7b222ed96c328431a6a2283be23262?rik=fdRSHyyDNYKVXg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fSky-Desktop-Backgrounds-Hd-Images.jpg&ehk=CnA60t9Jiqk7Vj4FfOxbZG%2bZwBln%2fT6XJS91Xq9LBLE%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.form-tag{
+    flex-grow: 1;
+}
+.center{
+    width: 350px;
+    height: 450px;
+    box-shadow: -5px 5px 10px 0px rgba(0,0,0,2);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+    backdrop-filter: blur(9px);
+
+}
+h1{
+    margin-top: 30px;
+    width:50px;
+
+}
+
+input{
+    width:80px;
+    height:14px;
+    background:none;
+    margin-top: 10px;
+    border:none;
+    border-bottom:solid 1px black;
+    font: size 15px;
+    padding-left: 10px;
+    outline:none;
+}
+
+.submit-button{
+    width:120px;
+    height:35px;
+    margin-top:10px;
+    border:none;
+    font-size:15px;
+    border-radius: 20px;
+    outline:none;
+    background-color:#a5ca1f;
+}
+.login-with{
+    width:100px;
+    margin:20px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.btn{
+    margin-top:10px;
+    width:130px;
+    height:35px;
+    margin-top:10px;
+    border:none;
+    font-size:10px;
+    outline:none;
+}
+.fb{
+    background-color:#0866FF;
+    color:white;
+}
+.ggl{
+    background-color: #ea4335;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
